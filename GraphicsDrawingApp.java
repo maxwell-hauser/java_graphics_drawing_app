@@ -4,7 +4,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.JOptionPane;
 
-public class graphics_drawing_app extends Frame implements ActionListener
+public class GraphicsDrawingApp extends Frame implements ActionListener
 {
 	String command = "About";
 	
@@ -28,13 +28,13 @@ public class graphics_drawing_app extends Frame implements ActionListener
 		
 	public static void main(String[] args)
 	{
-		Frame frame = new graphics_drawing_app();
+		Frame frame = new GraphicsDrawingApp();
 		frame.setResizable(true);
 		frame.setSize(1000,840);
 		frame.setVisible(true);	
 	}
 	
-	public graphics_drawing_app()
+	public GraphicsDrawingApp()
 	{
 		setTitle("Graphics");
 		

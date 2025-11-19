@@ -31,7 +31,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>graphics_drawing_app</mainClass>
+                            <mainClass>GraphicsDrawingApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
